@@ -1,0 +1,17 @@
+* {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(42, 125, 157, 1) 47%,
+    rgba(43, 118, 153, 1) 52%,
+    rgba(45, 98, 142, 1) 66%,
+    rgba(50, 49, 114, 1) 100%
+  );
+}
+.counter-header {
+  height: 100vh;
+}
+/* .counter-button{
+
+} */
