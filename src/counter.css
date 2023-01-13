@@ -1,24 +1,3 @@
-/* * {
-  height: 100vh;
-  width: 100vh;
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(42, 125, 157, 1) 47%,
-    rgba(43, 118, 153, 1) 52%,
-    rgba(45, 98, 142, 1) 66%,
-    rgba(50, 49, 114, 1) 100%
-  );
-  background-repeat: no-repeat;
-  height: 100vh;
-} */
-/* .counter-header {
-  height: 100vh;
-}
- .counter-button{
-
-}  */
 * {
   margin: 0;
   padding: 0;
@@ -30,8 +9,6 @@
   flex-direction: column;
   text-align: center;
   row-gap: 20px;
-
-  /* background-color: aquamarine; */
 }
 
 .counter h1 {
@@ -58,8 +35,6 @@
   background-color: transparent;
   color: rgb(16, 0, 54);
   border: 1px solid rgb(16, 0, 54);
-  /* cursor: pointer;
-  transition: 0.2s ease-in-out; */
 }
 
 .control__btn:hover {
@@ -83,4 +58,20 @@
   background-color: rgb(16, 0, 54);
   color: rgb(255, 255, 255);
   border: 1px solid rgb(16, 0, 54);
+}
+.add-button {
+  width: 200px;
+  height: 50px;
+  font-size: large;
+}
+.add-button:hover {
+  background-color: rgb(16, 0, 54);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(16, 0, 54);
+}
+.counter-container {
+  border: 2px solid black;
+
+  height: 80px;
+  width: 290px;
 }
